@@ -27,6 +27,12 @@ public class Login
     public String getPass() {
         return pass;
     }
+
+    @Override
+    public String toString() {
+        return "Login{" + "user=" + user + ", pass=" + pass + '}';
+    }
+    
     
     
     

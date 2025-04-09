@@ -192,7 +192,6 @@ public class main extends javax.swing.JFrame {
         return false;
     }
     
-    
     public String obtenerUsuariosRegistrados() {
     if (users.isEmpty()) {
         return "No hay usuarios registrados.";
